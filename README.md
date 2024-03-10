@@ -1,11 +1,12 @@
-# Proyek Analisis Data: Dataset Bike Sharing
+# Proyek Analisis Data: Bike Sharing Dataset
 
 ## Pendahuluan
 
-Proyek ini bertujuan untuk menganalisis dataset berbagi sepeda. Analisis ini mencakup pemahaman tentang tren penggunaan sepeda berdasarkan musim, tahun, dan jam dalam sehari.
+Proyek ini bertujuan untuk menganalisis dataset peminjaman sepeda. Analisis ini akan mencakup pemahaman tentang tren penggunaan sepeda berdasarkan musim, tahun, dan jam dalam sehari.
 
 ## Persyaratan
 
+Daftar dependensi yang diperlukan untuk menjalankan proyek ini:
 - matplotlib==3.8.3
 - numpy==1.26.4
 - pandas==2.2.1
@@ -13,17 +14,19 @@ Proyek ini bertujuan untuk menganalisis dataset berbagi sepeda. Analisis ini men
 
 ## Keterangan Dataset
 
-Dataset ini mencakup informasi tentang peminjaman sepeda pada tahun 2011 hingga 2012. Analisis akan dilakukan untuk memahami pola peminjaman sepeda berdasarkan musim, tahun, jam, dan status peminjam (terdaftar atau tidak terdaftar).
+Sistem peminjaman sepeda merupakan evolusi baru dari penyewaan sepeda konvensional di mana semua proses keanggotaan, peminjaman, dan pengembalian telah diotomatisasi. Saat ini, terdapat lebih dari 500 program peminjaman sepeda di seluruh dunia yang mencakup lebih dari 500 ribu sepeda. Minat yang besar terhadap sistem ini dikarenakan perannya yang signifikan dalam menangani masalah lalu lintas, lingkungan, dan kesehatan.
 
 ## Notebook
 
 Link Google Colab Notebook: [Google Colab Notebook](https://colab.research.google.com/drive/1utfOGhS-ppi0V68BE4e7Mj6SniPykgpC?usp=sharing)
 
-Notebook ini berisi langkah-langkah analisis data dari dataset berbagi sepeda. Anda akan menemukan analisis mendalam tentang tren peminjaman sepeda berdasarkan waktu dan faktor-faktor lainnya.
+Notebook ini berisi langkah-langkah analisis data dari dataset peminjaman sepeda. Anda akan menemukan analisis mendalam tentang tren penggunaan sepeda berdasarkan waktu dan faktor-faktor lainnya.
 
 ## Dashboard
 
-Dashboard Streamlit akan segera tersedia untuk memvisualisasikan temuan dari analisis data. Dashboard akan menyajikan informasi tentang tren penggunaan sepeda berdasarkan waktu dan kondisi lainnya.
+Link Dashboard Streamlit: [Streamlit Dashboard](https://bike-sharing-2r5easltvy63xlpbosjjx7.streamlit.app/)
+
+Dashboard ini akan memvisualisasikan temuan dari analisis data, termasuk tren penggunaan sepeda berdasarkan waktu dan kondisi lainnya.
 
 ## Cara Menjalankan Proyek
 
@@ -34,11 +37,11 @@ git clone https://github.com/rangsikayana/bike-sharing.git
 pip install -r requirements.txt
 
 3. Jalankan Notebook:
-- Buka Google Colab Notebook dari link yang diberikan.
-- Jalankan notebook dalam lingkungan Google Colab.
+streamlit run app.py
+- Atau, buka Google Colab Notebook dari link yang diberikan.
 
 4. Jalankan Dashboard:
-- Dashboard Streamlit akan tersedia dalam waktu dekat.
+- Akses [Dashboard Streamlit](https://bike-sharing-2r5easltvy63xlpbosjjx7.streamlit.app/) untuk melihat visualisasi hasil analisis data.
 
 ## Lisensi
 
