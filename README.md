@@ -14,13 +14,13 @@ Daftar dependensi yang diperlukan untuk menjalankan proyek ini:
 
 ## Keterangan Dataset
 
-Sistem peminjaman sepeda merupakan evolusi baru dari penyewaan sepeda konvensional di mana semua proses keanggotaan, peminjaman, dan pengembalian telah diotomatisasi. Saat ini, terdapat lebih dari 500 program peminjaman sepeda di seluruh dunia yang mencakup lebih dari 500 ribu sepeda. Minat yang besar terhadap sistem ini dikarenakan perannya yang signifikan dalam menangani masalah lalu lintas, lingkungan, dan kesehatan.
+Sistem peminjaman sepeda merupakan evolusi baru dari cara konvensional di mana semua proses keanggotaan, peminjaman, dan pengembalian telah diotomatisasi. Saat ini, terdapat lebih dari 500 program peminjaman sepeda di seluruh dunia yang mencakup lebih dari 500 ribu sepeda. Minat yang besar terhadap sistem ini dikarenakan perannya yang signifikan dalam menangani masalah lalu lintas, lingkungan, dan kesehatan.
 
 ## Notebook
 
 Link Google Colab Notebook: [Google Colab Notebook](https://colab.research.google.com/drive/1utfOGhS-ppi0V68BE4e7Mj6SniPykgpC?usp=sharing)
 
-Notebook ini berisi langkah-langkah analisis data dari dataset peminjaman sepeda. Anda akan menemukan analisis mendalam tentang tren penggunaan sepeda berdasarkan waktu dan faktor-faktor lainnya.
+Notebook ini berisi langkah-langkah analisis data dari dataset peminjaman sepeda. Anda akan mendapatkan temuan tentang tren penggunaan sepeda berdasarkan waktu dan faktor-faktor lainnya.
 
 ## Dashboard
 
@@ -33,11 +33,18 @@ Dashboard ini akan memvisualisasikan temuan dari analisis data, termasuk tren pe
 1. Clone repositori ini ke mesin lokal Anda:
 git clone https://github.com/rangsikayana/bike-sharing.git
 
-2. Instalasi Dependensi:
-pip install -r requirements.txt
+2. Instalasi Dependensi dan Streamlit:
+  ```
+  pip install -r requirements.txt
+  ```
+  ```
+  pip install streamlit
+  ```
 
 3. Jalankan Notebook:
-streamlit run app.py
+  ```
+  streamlit run app.py
+  ```
 - Atau, buka Google Colab Notebook dari link yang diberikan.
 
 4. Jalankan Dashboard:
